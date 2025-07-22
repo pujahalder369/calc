@@ -29,20 +29,16 @@ operator.forEach((e) => { // operator sign
 equal.addEventListener("click", () => { // second value & calculate
   num2 = Number(display.innerHTML);
   if (opr === "+") {
-    result = value + num2;
-    display.innerHTML = result;
+    display.innerHTML = value + num2;
   }
   if (opr === "-") {
-    result = value - num2;
-    display.innerHTML = result;
+    display.innerHTML = value - num2;
   }
   if (opr === "*") {
-    result = value * num2;
-    display.innerHTML = result;
+    display.innerHTML = value * num2;
   }
   if (opr === "/") {
-    result = value / num2;
-    display.innerHTML = result;
+    display.innerHTML = value / num2;
   }
 });
 
